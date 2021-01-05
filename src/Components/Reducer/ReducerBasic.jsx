@@ -22,6 +22,8 @@ function ReducerBasic() {
         <div>
             <h2>Count - {count}</h2>
             <button onClick={() => dispatch('increment')}>Increment</button>
+            <button onClick={() => dispatch('increment')}>Increment</button>
+            <button onClick={() => dispatch('decrement')}>Decrement</button>
             <button onClick={() => dispatch('decrement')}>Decrement</button>
             <button onClick={() => dispatch('reset')}>Reset</button>
         </div>
